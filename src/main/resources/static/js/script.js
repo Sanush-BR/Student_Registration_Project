@@ -9,7 +9,7 @@ document.getElementById('userForm').addEventListener('submit', async function(ev
 
        try {
             // Send POST request using fetch
-            const response = await fetch('http://52.66.146.180:8085/api/students', {
+            const response = await fetch('http://52.66.146.180:8080/api/students', {
                 			method: 'POST',
                    			 headers: {
                         		'Content-Type': 'application/json'
